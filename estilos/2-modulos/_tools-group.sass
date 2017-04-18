@@ -1,0 +1,35 @@
+//main: ../main.sass
+
+.tools-group
+  .tool
+    z-index:4
+    position:fixed
+    width:60px
+    height:60px
+    box-shadow: 0 0 10px rgba(100,100,100,0.8)
+    cursor:pointer
+    border-radius:50%
+    &.escondido
+      left:-85px
+  .nav-toggle
+    top:15px
+    left:15px
+    background:
+      color:$acento-verde
+      image:url('../recursos/iconos/navicon.png')
+      position:center
+      repeat:no-repeat
+      size: 28px 24px
+    transition: left 0.4s cubic-bezier(0.73,-0.87, 0.58, 1)
+  .arrow-back
+    top:15px
+    left:60px
+    background:
+      color:$acento-verde-oscuro
+      image:url('../recursos/iconos/backicon.png')
+      position:center
+      repeat:no-repeat
+      size:25px 24px
+    transition: left 0.5s cubic-bezier(0.73,-0.87, 0.58, 1)
+  @media(min-width: 1024px)
+    display: none

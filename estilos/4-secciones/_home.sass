@@ -1,0 +1,204 @@
+//main: ../main.sass
+
+section.home
+  overflow: hidden
+  .card
+    position:relative
+    width:100%
+    height:62vw
+    &.not-ready
+      display: none
+    &.not-ready::after
+      position:absolute
+      display:block
+      width:100%
+      height:100%
+      top:0
+      left:0
+      color:white
+      background:rgba(0,0,0,0.8)
+      content:"Seccion en construccion"
+    .gancho
+      font-weight: bold
+      font-size: 0.8em
+      .text
+        .text-in
+          display: inline-block
+          opacity:0
+      a.boton
+        font-weight: normal
+        margin-top:0.2em
+        transform: scale(0.8)
+        box-shadow: 0 0px 0px 0px rgba(0,0,0,0)
+    h1
+      font-style: normal
+      margin:0
+      font-weight: lighter
+      font-size: 1.3rem
+    .next-card
+      position:absolute
+      left:50%
+      bottom:10px
+      transform: translate(-50%,0)
+      opacity:0.6
+      transition: opacity 0.2s ease-in-out
+      display: none
+      a
+        text-decoration: none
+        color:white
+        font-size: 2.5em
+      &:hover
+        opacity:1
+  .home-head
+    background:
+      image:url('../recursos/imagenes/secciones/home-head-movil.jpg')
+      color:rgba(50, 50, 50, 0.2)
+      size:cover
+      position:center
+    color:rgba(50,50,50,1)
+    //text-shadow: 0 0 5px rgba(250,250,250,1)
+    .home-titles
+      position: absolute
+      background:rgba(0,0,0,0)
+      padding:10px
+      width:50%
+      left:50%
+      top:50%
+      transform: translate(-65%,-60%)
+      .logo
+        z-index: 3
+        position: relative
+        text-align: center
+        margin-bottom: 0.5em
+        //transform: translate3d(0, -10%, 0)
+        //opacity: 0
+        img
+          max-width:30%
+      .title
+        z-index: 4
+        width:100%
+        text-align: center
+        h1
+          font-family: copperplate
+          color:black
+          font-size: 1em
+  .home-miCamino
+    background:
+      image:url('../recursos/imagenes/secciones/home-miCamino-movil.jpg')
+      size:cover
+      position:center top
+    .gancho
+      width:55%
+      position: absolute
+      top:50%
+      transform: translate(0,-50%)
+      color:white
+      left:5%
+  .home-tiroconarco
+    overflow:hidden
+    video
+      position:absolute
+      z-index:2
+      height:63vw
+      right:0
+    .gancho
+      z-index:3
+      position:absolute
+      right:10px
+      width:55%
+      text-align: right
+      color:white
+      text-shadow: 0 0 5px rgba(0,0,0,1)
+      top:50%
+      transform: translate(0,-50%)
+      a
+        text-shadow: none
+  .home-medios
+    background: $acento-rojo-oscuro
+    display: flex
+    flex-direction: row
+    justify-content: space-around
+    align-items: center
+    .gancho
+      color:white
+      width:45%
+    .home-medios-widget
+      position:relative
+      width:45%
+      height:100%
+      .wd
+        position:absolute
+        font-size: 50px
+        color:white
+        &.video
+          top:10%
+          left:50%
+          transform: translate(-50%,0)
+        &.web
+          top:50%
+          left:50%
+          transform: translate(-50%,-50%)
+        &.audio
+          bottom:10%
+          left:50%
+          transform: translate(-50%,0)
+  .home-patrocinadores
+    background:
+      image:url('../recursos/imagenes/secciones/home-patrocinadores-movil.jpg')
+      size:cover
+      position:center top
+    .gancho
+      position:absolute
+      left:50%
+      transform: translate(-50%,0)
+      text-align: center
+      color:$acento-rojo
+      bottom:10%
+      width:60%
+    .next-card
+      a
+        color:$acento-rojo-oscuro
+  @media(min-width: 768px)
+    .card
+      h1
+        font-size: 2.5rem
+      .gancho
+        font-size: 2rem
+        font-weight: normal
+    .home-head
+      background:
+        image:url('../recursos/imagenes/secciones/home-head-tablet.jpg')
+      .home-titles
+        padding:2rem
+        .title
+          h1
+            font-size: 1.2em
+    .home-miCamino
+      background:
+        image:url('../recursos/imagenes/secciones/home-miCamino-tablet.jpg')
+    .home-patrocinadores
+      background:
+        image:url('../recursos/imagenes/secciones/home-patrocinadores-tablet.jpg')
+    .home-medios
+      .home-medios-widget
+        .wd
+          font-size: 100px
+  @media(min-width: 1024px)
+    .card
+      width:100vw
+      height:100vh
+      .next-card
+        display: block
+    .home-head
+      background:
+        image:url('../recursos/imagenes/secciones/home-head-escritorio.jpg')
+    .home-miCamino
+      background:
+        image:url('../recursos/imagenes/secciones/home-miCamino-escritorio.jpg')
+    .home-tiroconarco
+      overflow: hidden
+      video
+        height:1080px
+    .home-patrocinadores
+      background:
+        image:url('../recursos/imagenes/secciones/home-patrocinadores-escritorio.jpg')

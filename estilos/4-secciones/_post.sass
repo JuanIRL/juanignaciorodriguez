@@ -1,0 +1,142 @@
+//main: ../main.sass
+
+section.post
+  .section-header
+    background:
+      image:url('../recursos/imagenes/secciones/mi-camino-a-rio-header-movil.jpg')
+      position:center top
+  .section-container
+    article
+      margin: auto
+      h2
+        width:95%
+        margin:10px auto
+        font-weight: normal
+      h3
+        font-weight: normal
+      blockquote
+        background:rgba(230,230,230,1)
+        color:rgba(50,50,50,1)
+        font-style: italic
+        padding:2rem
+      ul.list
+        margin-top: -15px
+        padding-left: 2em
+        li
+          list-style: disc
+      .miCamino-related
+        margin-top: 20px
+        ul
+          margin: 10px 10px
+          li
+            display: inline
+            width:100%
+      .article-thumbnail
+        text-align: center
+        img
+          max-width: 95%
+      .article-data
+        color:rgba(100,100,100,1)
+        display: flex
+        width:95%
+        margin: auto
+        border-bottom: 2px solid rgba(200,200,200,1)
+        padding-bottom: 3px
+        flex-direction: row
+        align-items: center
+        .article-date
+          font-style: italic
+        .article-author
+          width:30px
+          height:30px
+          margin-left: 10px
+          border-radius: 50%
+          background:
+            color:blue
+            image:url('../recursos/imagenes/autores/juanirl-s.jpg')
+            position:center
+            size:contain
+        .share-twitter
+          margin-left: 10px
+          height:100%
+        .fb-share-button
+          margin-left: 10px
+          height:100%
+      .article-content
+        width:95%
+        margin:auto
+        figure
+          display: table
+          margin: auto
+          img
+            display: block
+            margin:0 auto
+            max-width: 100%
+            max-height: 300px
+          figcaption
+            display: table-caption
+            caption-side: bottom
+            font-size: 0.9em
+            color:rgba(150,150,150,1)
+            font-style: italic
+            background:rgba(250,250,250,1)
+        .video-player
+          width:100%
+          text-align: center
+          iframe
+            width:300px
+            height:169px
+          video
+            width:300px
+            height:169px
+          @media(min-width: 375px)
+            iframe
+              width:356px
+              height:200px
+            video
+              width:356px
+              height:200px
+          @media(min-width: 470px)
+            iframe
+              width:447px
+              height:251px
+            video
+              width:447px
+              height:251px
+  @media(min-width:768px)
+    .section-header
+      background-image:url('../recursos/imagenes/secciones/mi-camino-a-rio-header-tablet.jpg')
+    .section-container
+      font-size: 1.5rem
+      article
+        width:768px
+        font-weight: lighter
+        b
+          font-weight: normal
+        h2
+          width:98%
+        .article-thumbnail
+          img
+            max-width: 98%
+        .article-data
+          width:98%
+          .article-author
+            width:40px
+            height:40px
+        .article-content
+          width:98%
+          figure
+            img
+              max-height: 500px
+          .video-player
+            width:100%
+            text-align: center
+            iframe
+              width:750px
+              height:422px
+            video
+            width:750px
+            height:422px
+  @media(min-width:768px)
+    .section-header
+      background-image:url('../recursos/imagenes/secciones/mi-camino-a-rio-header-escritorio.jpg')

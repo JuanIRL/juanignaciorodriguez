@@ -1,0 +1,63 @@
+//main: ../main.sass
+
+section.patrocinadores
+  .section-header
+    background:
+      image:url('../recursos/imagenes/secciones/home-patrocinadores-movil.jpg')
+      position:center bottom
+      size:cover
+      repeat:no-repeat
+    .section-header-titles
+      color:$acento-rojo
+      text-shadow: none
+  .section-container
+    .patrocinadores-listado
+      background: rgba(250,250,250,1)
+      display: flex
+      justify-content: space-around
+      flex-wrap: wrap
+      align-items: center
+      .item
+        width:300px
+        margin:20px 10px
+        text-align: center
+        a
+          display: block
+          img
+            display: block
+            margin:0 auto
+            margin-bottom: 1em
+            max-width: 100%
+    .patrocinadores-action
+      background:darken(#AE0010, 20)
+      color:white
+      text-align: center
+      padding:20px 0
+      .patrocinadores-action-container
+        display: flex
+        justify-content: space-around
+        align-items:flex-end
+        flex-wrap: wrap
+        .item
+          width:300px
+          margin:2em 10px
+          img
+            display: block
+            margin:auto
+            margin-bottom: 1em
+            max-width: 100%
+            &.smaller
+              max-width: 75%
+          .fa
+            display: block
+            font-size: 100px
+          a.boton
+            margin-top: 1em
+  @media(min-width: 768px)
+    .section-header
+      background:
+        image:url('../recursos/imagenes/secciones/home-patrocinadores-tablet.jpg')
+  @media(min-width: 1024px)
+    .section-header
+      background:
+        image:url('../recursos/imagenes/secciones/home-patrocinadores-escritorio.jpg')

@@ -1,0 +1,51 @@
+//main: ../main.sass
+
+.boton
+  text-decoration: none
+  text-align: center
+  color:inherit
+  display: block
+  color:white
+  background: $acento-azul
+  padding:0.5em 0.7em
+  border-radius: 5px
+  border:2px solid $acento-azul
+  transition: all 0.4s ease-in-out
+  @media(min-width: 1024px)
+    &:hover
+      background: transparent
+      color:$acento-azul
+  &.transparente
+    background:rgba(100,100,100,0.2)
+    border: 2px solid rgba(150,150,150,1)
+  &.blanco
+    background: white
+    border: 2px solid white
+    color:$acento-rojo-oscuro
+    @media(min-width: 1024px)
+      &:hover
+        background: transparent
+        color:white
+  &.blanco-azul
+    background: white
+    border: 2px solid white
+    color:$acento-azul
+    &:hover
+      background-color: transparent
+      color:white
+      border-color: white
+  &.verde
+    background: $acento-verde-oscuro
+    border: 2px solid $acento-verde-oscuro
+    color:white
+    @media(min-width: 1024px)
+      &:hover
+        background: transparent
+        color:$acento-verde-oscuro
+  &.rojo
+    background:$acento-rojo
+    border:2px solid $acento-rojo
+    @media(min-width: 1024px)
+      &:hover
+        background: transparent
+        color:$acento-rojo

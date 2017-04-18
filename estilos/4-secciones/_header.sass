@@ -1,0 +1,99 @@
+//main: ../main.sass
+.main-container
+  position: relative
+  header
+    position:absolute
+    top:10px
+    z-index:4
+    width:90%
+    border:1px solid white
+    border-radius: 3px
+    left:50%
+    transform: translate(-50%,0)
+    color:white
+    text-align: center
+    padding:15px 0
+    transition:all 0.5s ease-in-out
+    .header-logo
+      text-align: center
+      display: inline-block
+      font-size: 0.8em
+      display: flex
+      flex-direction: row
+      align-items: center
+      justify-content: center
+      .logo-img
+        display: inline-block
+        background:
+          image:url('../recursos/imagenes/logo/logo-blanco-min.png')
+          size:contain
+          repeat:no-repeat
+        margin-right: 10px
+        height:23px
+        width:15px
+        transition:background 0.5s ease-in-out
+    .tools-group
+      position:absolute
+      text-align: left
+      width:100%
+      display: flex
+      justify-content: space-between
+      .header-nav-toggle
+        font-size: 1.2em
+        cursor:pointer
+        margin-left: 10px
+      .header-back
+        font-size: 1.2em
+        cursor:pointer
+        transition:opacity 0.3s ease-in-out
+        margin-right: 10px
+        &.escondido
+          opacity:0
+    &.rojo
+      color:$acento-rojo-oscuro
+      border-color: $acento-rojo-oscuro
+      .header-logo
+        .logo-img
+          background:
+            image:url('../recursos/imagenes/logo/logo-color-acento-rojo-oscuro.png')
+    &.fixed
+      position:fixed
+      top:0
+      width:100%
+      background:white
+      color:black
+      border-radius: 0
+      border:none
+      .header-logo
+        .logo-img
+          background:
+            image:url('../recursos/imagenes/logo/logo-negro-min.png')
+      &.rojo
+        color:$acento-rojo-oscuro
+        .header-logo
+          .logo-img
+            background:
+              image:url('../recursos/imagenes/logo/logo-color-acento-rojo-oscuro.png')
+    @media(min-width: 1024px)
+      &.fixed
+        position: absolute
+        top:10px
+        z-index:4
+        width:90%
+        border:1px solid white
+        border-radius: 3px
+        left:50%
+        transform: translate(-50%,0)
+        color:white
+        text-align: center
+        padding:15px 0
+        background: transparent
+        .header-logo
+          .logo-img
+            background:
+              image:url('../recursos/imagenes/logo/logo-blanco-min.png')
+        &.rojo
+          color:$acento-rojo-oscuro
+          border-color: $acento-rojo-oscuro
+      .header-nav-toggle
+        display: none

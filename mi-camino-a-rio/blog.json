@@ -1,0 +1,73 @@
+{
+
+  "posts":[
+    {
+      "id_post":"47-dias-para-cumplir-un-sueno",
+      "titulo":"47 días para cumplir un sueño",
+      "desc_pagina":"Una vez confirmado el equipo para Rio 2016 del que formaré parte es momento de agradecer a todos lo que me habeis apoyado.",
+      "keywords":"clasificacion, seleccion, equipo, juegos, olimpico, rio, 2016, tiro, arco, sueño, agradecer, familia, compañero",
+      "thumb":"../recursos/imagenes/posts/juan-antonio-miguel-antalya-rio.jpg",
+      "thumb_desc":"Eliminatoria por equipos en los Juegos Europeos de Baku 2015",
+      "fecha":"19 de Junio",
+      "sneak":"Ya está hecho. Hoy por fin me han confirmado que estaré en <a href='http://www.rio2016.com'>Rio2016</a> y podré cumplir mi sueño. ¡Seré olímpico!<br/>Desde pequeñito ese sueño ha sido lo que me ha levantado de la cama cada mañana a pesar del cansancio y las agujetas...",
+      "id_autor":"juanirl",
+      "related_posts":[],
+      "related_links":["http://www.federarco.es/noticias/item/download/452_9586e8f471c77919e06ea0fa636bf00e",
+      "http://www.marca.com/otros-deportes/2016/06/18/576558cd468aeb33708b45a3.html"]
+    },
+    {
+      "id_post":"rozando-el-bronce-en-nottingham",
+      "titulo":"Rozando el bronce en Nottingham",
+      "desc_pagina":"A las puertas del bronce en el europeo Nottingham, pero con el trabajo claro para la última fase de la temporada.",
+      "keywords":"europeo, campeonato de europa, nottingham, tiro con arco, españa, bronce",
+      "thumb":"../recursos/imagenes/posts/final-equipos-nottingham.jpg",
+      "thumb_desc":"La selección española de tiro con arco en la final por el bronce de Nottingham",
+      "fecha":"30 de Mayo",
+      "sneak":"Se acabó el Campeonato de Europa. Nuevamente llegamos a la final por el bronce en equipos, y aunque hace tiempo que no conseguimos algo así, no ha sido nuestro mejor momento...",
+      "id_autor":"juanirl",
+      "related_posts":["nuestras-primeras-medallas-en-world-cup"],
+      "related_links":["http://www.planetaolimpico.es/deportes-de-verano/tiro-con-arco/2469-el-equipo-olimpico-roza-la-medalla-europea",
+                      "ianseo.net/Details.php?toId=1337"]
+    },
+    {
+      "id_post":"nuestras-primeras-medallas-en-world-cup",
+      "titulo":"Nuestras primeras medallas en World Cup",
+      "desc_pagina":"Por primera vez llegamos a las medallas en una copa del mundo. En la última edición que se disputo en Medellín en 2016.",
+      "keywords":"españa, copa del mundo, bronce, equipo, tiro con arco, plata, alvariño",
+      "thumb":"../recursos/imagenes/posts/final-equipos-medellin.jpg",
+      "thumb_desc":"Animando al equipo tras una de las series de la final",
+      "fecha":"18 de Mayo",
+      "sneak":"...En nuestro bronce contra Canadá ya nos benefició la experiencia previa. En el equipo rival, dos de los integrantes habían competido tan sólo en una copa del mundo anteriormente, y el viento tampoco ayudó. Empezó a soplar fuerte según avanzaba la eliminatoria y no era nada regular. Así que por suerte acabamos 6-0 y no tuvimos que sufrir más...",
+      "id_autor":"juanirl",
+      "related_posts":[],
+      "related_links":["worldarchery.org/competition/14529/medellin-2016-hyundai-archery-world-cup-stage-2-cqt","www.rio2016.com"]
+    },
+    {
+      "id_post":"un-mes-de-gira-asiatica",
+      "titulo":"Un mes de gira asiática",
+      "desc_pagina":"Este último mes lo pasamos recorriendo Corea para entrenar con los equipos profesionales para más tarde competir en la copa del mundo de Shanghai.",
+      "keywords":"españa, copa del mundo, shanghai, corea, incheon, gongju, equipo, profesional, concentracion, plataforma",
+      "thumb":"../recursos/imagenes/posts/concentracion-equipo-ulsan.jpg",
+      "thumb_desc":"El equipo nacional con el equipo profesional de Ulsan",
+      "fecha":"03 de Mayo",
+      "sneak":"...Se nota que son la mayor potencia mundial en tiro con arco. Prácticamente todos a los que nos enfrentamos nos pusieron las cosas difíciles: desde el equipo nacional junior hasta algunos de los equipos profesionales más grandes como el de la ciudad de Gongju. Así que tocó arremangarse y sacar lo mejor de cada uno...",
+      "id_autor":"juanirl",
+      "related_posts":[],
+      "related_links":[]
+    },
+    {
+      "id_post":"entrada-de-prueba",
+      "titulo":"Entrada de prueba",
+      "desc_pagina":"Por primera vez llegamos a las medallas en una copa del mundo. En la última edición que se disputo en Medellín en 2016",
+      "keywords":"españa, copa del mundo, bronce, equipo, tiro con arco, plata, alvariño",
+      "thumb":"../recursos/imagenes/posts/final-equipos-medellin.jpg",
+      "thumb_desc":"Animando al equipo tras una de las series de la final",
+      "fecha":"18 de Mayo",
+      "sneak":"...En nuestro bronce contra Canadá ya nos benefició la experiencia previa. En el equipo rival, dos de los integrantes habían competido tan sólo en una copa del mundo anteriormente, y el viento tampoco ayudó. Empezó a soplar fuerte según avanzaba la eliminatoria y no era nada regular. Así que por suerte acabamos 6-0 y no tuvimos que sufrir más...",
+      "id_autor":"juanirl",
+      "related_posts":["nuestras-primeras-medallas-en-world-cup"],
+      "related_links":["worldarchery.org/competition/14529/medellin-2016-hyundai-archery-world-cup-stage-2-cqt","www.rio2016.com"]
+    }
+  ],
+  "total":"4"
+}

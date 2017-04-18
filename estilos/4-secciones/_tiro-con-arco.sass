@@ -1,0 +1,28 @@
+//main: ../main.sass
+
+section.archery
+  .section-header
+    background:
+      image:url('../recursos/imagenes/secciones/tiroconarco-movil.jpg')
+      size:cover
+      position:center bottom
+      repeat:no-repeat
+  .section-container
+    iframe
+      width:100%
+      height:500px
+      overflow-x: hidden
+  @media(min-width: 768px)
+    .section-header
+      background:
+        image:url('../recursos/imagenes/secciones/tiroconarco-tablet.jpg')
+    .section-container
+      iframe
+        height:800px
+  @media(min-width: 1024px)
+    .section-header
+      background:
+        image:url('../recursos/imagenes/secciones/tiroconarco-escritorio.jpg')
+    .section-container
+      iframe
+        height:100vh

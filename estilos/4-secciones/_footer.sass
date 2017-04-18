@@ -1,0 +1,42 @@
+//main: ../main.sass
+
+footer
+  padding:20px
+  text-align: center
+  background: rgba(100,100,100,1)
+  color:white
+  a
+    color:white
+  .footer
+    font-size: 1.3em
+    margin:10px 0
+    &.social
+      a
+        margin:0 10px
+        text-decoration: none
+    &.copyright
+      font-size: 0.8em
+    &.thanks
+      font-size: 0.8em
+      a.fa
+        text-decoration: none
+  .footer-contact
+    margin:20px auto
+    font-size: 0.9em
+    a
+      text-decoration: none
+      padding:1rem
+      background:rgba(80,80,80,1)
+  &.home-footer
+    padding:3rem 0
+    background-color: $acento-rojo-oscuro
+    .footer-contact
+      font-size: 1em
+      a
+        background-color: darken($acento-rojo-oscuro,5)
+        padding:2rem 15px
+    @media(min-width: 1024px)
+      font-size: 1.8em
+      .footer-contact
+        a
+          padding:2rem
