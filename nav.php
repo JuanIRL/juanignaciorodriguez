@@ -7,9 +7,9 @@
   <li class="<?php if ($nav == 'camino') {echo 'nav-actual';};?>">
     <a href="../mi-camino-a-rio">Mi camino a Rio</a>
   </li>
-  <li class="not-ready <?php if ($nav == 'medios') {echo 'nav-actual';};?>">
+  <!--<li class="not-ready <?php if ($nav == 'medios') {echo 'nav-actual';};?>">
     <a href="#">Medios</a>
-  </li>
+  </li>-->
   <li class="<?php if ($nav == 'patrocinadores') {echo 'nav-actual';};?>">
     <a href="../patrocinadores">Patrocinadores</a>
   </li>
@@ -19,15 +19,15 @@
   <li class="<?php if ($nav == 'tarco') {echo 'nav-actual';};?>">
     <a href="../tiro-con-arco">El tiro con arco</a>
   </li>
-  <li class="not-ready <?php if ($nav == 'material') {echo 'nav-actual';};?>">
+  <!--<li class="not-ready <?php if ($nav == 'material') {echo 'nav-actual';};?>">
     <a href="#">Material</a>
-  </li>
-  <li class="not-ready <?php if ($nav == 'biografia') {echo 'nav-actual';};?>">
+  </li>-->
+  <!--<li class="not-ready <?php if ($nav == 'biografia') {echo 'nav-actual';};?>">
     <a href="#">Biografía</a>
-  </li>
-  <li class="not-ready <?php if ($nav == 'galeria') {echo 'nav-actual';};?>">
+  </li>-->
+  <!--<li class="not-ready <?php if ($nav == 'galeria') {echo 'nav-actual';};?>">
     <a href="#">Galería</a>
-  </li>
+  </li>-->
 </ul>
 <div class="nav-social">
   <a href="https://twitter.com/JuanIRL" class="fa fa-twitter"></a>
