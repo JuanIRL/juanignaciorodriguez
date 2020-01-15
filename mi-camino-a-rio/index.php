@@ -34,7 +34,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Mi camino a Rio | Juan I. Rodriguez" />
     <meta property="og:description" content="Pásate por aqui con frecuencia para estar al día de mi preparación. Competiciones, entrenamientos, eventos y más." />
-    <meta property="og:image" content="recursos/imagenes/secciones/home-patrocinadores-movil.jpg" />
+    <meta property="og:image" content="/recursos/imagenes/secciones/home-patrocinadores-movil.jpg" />
 
     <!-- Marcado twitter-->
     <meta name="twitter:card" content="summary_large_image">
@@ -42,7 +42,7 @@
     <meta name="twitter:creator" content="@JuanIRL">
     <meta name="twitter:title" content="Mi camino a Rio | Juan I. Rodriguez">
     <meta name="twitter:description" content="Pásate por aqui con frecuencia para estar al día de mi preparación. Competiciones, entrenamientos, eventos y más.">
-    <meta name="twitter:image" content="recursos/imagenes/secciones/home-patrocinadores-movil.jpg">
+    <meta name="twitter:image" content="/recursos/imagenes/secciones/home-patrocinadores-movil.jpg">
 
     <!-- Elementos SEO-->
     <link rel="canonical" href="http://archery.juanrodriguezcodes.com/mi-camino-a-rio" />
