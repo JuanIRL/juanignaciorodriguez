@@ -30,7 +30,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 
     <!-- Marcado facebook-->
-    <meta property="og:url" content="http://www.juanignaciorodriguez.com/patrocinadores" />
+    <meta property="og:url" content="http://archery.juanrodriguezcodes.com/patrocinadores" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Mi camino a Rio | Juan I. Rodriguez" />
     <meta property="og:description" content="Pásate por aqui con frecuencia para estar al día de mi preparación. Competiciones, entrenamientos, eventos y más." />
@@ -45,7 +45,7 @@
     <meta name="twitter:image" content="recursos/imagenes/secciones/home-patrocinadores-movil.jpg">
 
     <!-- Elementos SEO-->
-    <link rel="canonical" href="http://www.juanignaciorodriguez.com/mi-camino-a-rio" />
+    <link rel="canonical" href="http://archery.juanrodriguezcodes.com/mi-camino-a-rio" />
     <meta name="robots" content="NOODP">
 
     <!--Set de iconos para todas las plataformas-->

@@ -32,7 +32,7 @@
     <!-- facebook <meta property="og: url" content="http://www.hqbodas.es"/>-->
 
     <!-- Elementos SEO-->
-    <link rel="canonical" href="http://www.juanignaciorodriguez.com/tiro-con-arco" />
+    <link rel="canonical" href="http://archery.juanrodriguezcodes.com/tiro-con-arco" />
     <meta name="robots" content="NOODP">
 
     <!--Set de iconos para todas las plataformas-->

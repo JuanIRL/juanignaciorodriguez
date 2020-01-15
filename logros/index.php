@@ -26,7 +26,7 @@
 
 
     <!-- Elementos SEO-->
-    <link rel="canonical" href="http://www.juanignaciorodriguez.com/patrocinadores" />
+    <link rel="canonical" href="http://archery.juanrodriguezcodes.com/patrocinadores" />
     <meta name="robots" content="NOODP">
 
     <!--Set de iconos para todas las plataformas-->
